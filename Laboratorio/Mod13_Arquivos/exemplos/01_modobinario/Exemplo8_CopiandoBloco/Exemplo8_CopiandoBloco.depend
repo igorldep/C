@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1449250545 source:c:\users\geraldo\desktop\arquivo\modobinario\exemplo8_bloco\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1385320478 source:c:\users\geraldo\desktop\arquivo\modobinario\gravandostruct\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1449251323 source:c:\projetos\academico\cefet\decom\disciplinas\programacaocomputadores_i\materialunificado\cefet_mg_programacaocomputadores_i\laboratorio\labfiles_c\mod13_arquivos\exemplos\01_modobinario\gravandostruct\main.c
+	<stdio.h>
+	<stdlib.h>
+

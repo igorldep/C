@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1449251944 source:c:\users\geraldo\desktop\arquivo\modobinario\copiandoelendostruct\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1449252131 source:c:\projetos\academico\cefet\decom\disciplinas\programacaocomputadores_i\materialunificado\cefet_mg_programacaocomputadores_i\laboratorio\labfiles_c\mod13_arquivos\exemplos\01_modobinario\copiandoelendostruct\main.c
+	<stdio.h>
+	<stdlib.h>
+

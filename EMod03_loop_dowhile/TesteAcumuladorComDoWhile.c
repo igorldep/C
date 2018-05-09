@@ -1,0 +1,53 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/*Nome: Igor Luciano de Paula | Turma: LABCOMP1 SELE.1 - G1
+ *Prof.: Geraldo Pereira de Souza | 1/2016
+ *
+ *Mod03_loop_dowhile - Roteiro: Exercício Proposto N. 2:
+ *Crie e compile o código fonte abaixo: b) Nome para o programa: TesteAcumuladorDoWhile.c
+ *d) Compile e execute o código fonte; e) O que o programa faz? f) Mude o programa para
+ *serem executadas 10 viagens.
+ */
+
+int main ()
+{
+    int contador = 0;
+    double carga, acumulador;
+
+    printf ("\nExecutar 10 viagens\n");
+
+    do
+    {
+        printf ("\nInforme a carga  da viagem %d :", (contador+1) );
+        // O formatador para int é %d
+        // O formatador para float é %f
+        // O formatador para double é %lf
+        scanf("%lf", &carga);
+
+        contador = contador + 1;
+        acumulador = acumulador + carga;
+
+    }while ( contador < 10 );
+
+    printf ("\nFim de expediente.\n");
+    printf ("\nNúmero de viagens : %d \n", contador);
+
+    printf ("\nCarga total transportada : %6.2lf\n", acumulador);
+    // O formatador para int é %d
+    // O formatador para float é %f
+    // O formatador para double é %lf
+    // Para imprimir um double formatado é %6.2lf (seis casas inteiras e duas decimais)
+    printf ("\nCarga média por viagem : %6.2lf\n", (acumulador/contador) );
+
+    system("pause");
+return 0;
+}
+
+/*O programa incia imprimindo na tela "Executar 10 viagens". Posteriormente entra em um loop que pede ao usuário o valor da carga
+ *"Informe a carga  da viagem %d :"(onde %d será o número da variável inteira contador+1 ) e armazena o valor na variável double carga.
+ *Dentro deste loop o contador é acrescido de uma unidade e a variável double acumulador será acumlador + carga. Enquanto contador for
+ *menor do que 10, o programa repetira o loop. Após as 10 rodadas do loop o programa imprime "Fim de expediente", "Número de viagens : %d"
+ *(onde %d será o contador), "Carga total transportada : %6.2lf"(onde %lf será a variável acumulador), "Carga média por viagem : %6.2lf"
+ *(onde %lf será o acumulador/contador) e encerra o programa.
+ */

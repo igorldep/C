@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1449240020 source:c:\users\geraldo\desktop\arquivo\exemplo7\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1449240020 source:c:\projetos\academico\cefet\decom\disciplinas\programacaocomputadores_i\materialunificado\cefet_mg_programacaocomputadores_i\laboratorio\labfiles_c\mod13_arquivos\exemplos\00_modotexto\exemplo7\main.c
+	<stdio.h>
+	<stdlib.h>
+
