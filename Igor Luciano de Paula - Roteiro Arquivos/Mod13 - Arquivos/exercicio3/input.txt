@@ -1,0 +1,13 @@
+Texto 
+	Contido 
+		  no
+			Arquivo 
+				 input
+
+					Texto
+
+				usado
+			Para
+		Teste
+	   do
+Programa

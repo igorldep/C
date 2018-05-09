@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1467322547 source:c:\users\aluno\desktop\igor luciano de paula e leonardo ribeiro - trabalho final\siscad\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

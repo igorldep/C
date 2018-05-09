@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1466466560 source:c:\users\mauro\desktop\igor luciano de paula - string\mod08 - string\exercicio1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
